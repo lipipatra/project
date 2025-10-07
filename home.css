@@ -1,0 +1,507 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parent .section{
+    background-image: url(img/carousel-2.jpg);
+    background-size: cover;
+}
+.top_navber{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 0% 2%;
+}
+.top_left_icon{
+    display: flex;
+    margin:1% 0% ;
+   align-items: center;
+}
+.top_left_icon div{
+    padding:0px 10px 0px 0px;
+}
+.sub_icon{
+    display: flex;
+}
+.top_right_icon{
+    display: flex;
+    margin: 1% 0%;
+    align-items: center;
+}
+.top_right_icon div{
+    padding:0px 10px 0px 0px;
+}
+/* ........navber............... */
+.bottom_navber{
+    padding: 0% 2%;
+   
+}
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo {
+    padding: 0px 40px 0px 0px ;
+    /* margin: 1% 4% 1% 0%; */
+}
+.logo h1{
+   color: #3CB815 ;
+   font-size: 3vmax;
+}
+.logo span{
+    color: red;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 1.2vmax;
+    font-weight: bold;
+    color: gray;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    display: flex;
+}
+.icon div{
+    padding: 0px 20px;
+}
+.heading .big_h1 h1{
+    font-size: 6vmax;
+}
+.heading{
+    margin: 0% 0%;
+}
+.head{
+    padding: 20% 5%;
+    width: 50%;
+}
+.button{
+    display: flex;
+    
+}
+.button div{
+   margin: 10px;
+    border-radius: 12px 30px;
+   
+}
+.btn1{
+    background-color: green;
+    padding: 20px;
+    border-radius: 30px 12px;
+    font-size: 1.2vmax;
+    font-size: white;
+}
+.btn2{
+    background-color: orange;
+    border-radius: 12px 30px;
+    padding: 20px;
+    font-size: 1.2vmax;
+    font-size: white;
+}
+
+
+
+
+
+
+/* .....................container........................ */
+.container .block{
+    justify-content: center;
+    display: flex;
+    margin: 5%;
+}
+.box{
+  width: 50%;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}
+.sub_box{
+ padding: 5rem 3rem;
+}
+.sub_box h1{
+    font-size: 3vmax;
+}
+.sub_box p{
+    font-size: 1.2vmax;
+    color: gray;
+    line-height: 1.7;
+    padding: 20px 0px;
+}
+.icon_tag {
+    padding: 20px 0px;
+}
+.icon_tag .sub_icon div {
+  padding: 10px;
+}
+.btn{
+padding: 20px 0px;
+}
+.btn button{
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: green;
+  border: none;
+}
+/* .....................contant....................... */
+.section_1{
+    background-image: url(img/JL65RpYFVJTiiTJeMYgAzHPx5M.webp);
+    background-size: cover;
+}
+.contant{
+   
+    display: flex;
+    justify-content: center;
+    /* margin: 5% 33% 10% 5%; */
+    /* padding: 5% 35%; */
+}
+.contant .block{
+    text-align: center;
+}
+.contant .block h1{
+  padding: 10px 5px;
+  font-size: 3.5vmax;
+}
+.contant .block p{
+    font-size: 1.7vmax;
+    color: gray;
+}
+.box_size{
+    /* border: 1px solid red; */
+}
+.box_size .block{
+    /* border: 1px solid green; */
+    margin: 5% 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.web{
+    /* height: 200px; */
+    width:100%;
+  
+    background-color: white;
+    margin: 1%;
+    text-align: center;
+}
+.web p{
+    font-size: 1.3vmax;
+}
+.web div{
+    padding:10px  5px;
+}
+.web button{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    color: green;
+    border:1px solid green;
+}
+/* ................................section_2............................... */
+.section_2{
+    /* border: 1px solid red; */
+}
+.section_2 .outer{
+    margin: 3% ;
+    /* border: 1px solid blue; */
+}
+.section_2 .inner{
+     display: flex;
+    /* justify-content: center; */
+}
+.section_2 .inner .box{
+  width: 50%;
+  /* border: 1px solid green; */
+}
+.section_2 .inner .box h1{
+    font-size: 3.5vmax;
+}
+.section_2 .inner .box p{
+    color: gray;
+    font-size: 1.5vmax;
+    line-height: 1.7;
+}
+.box{
+    width: 50%;
+}
+.box .flex{
+    /* border: 1px solid green; */
+    display: flex;
+  padding: 8% 0% 0%;
+   justify-content: flex-end;
+}
+.butt{
+    border: 2px solid green;
+    padding:10px 15px;
+    margin: 4px;
+}
+.butt:hover{
+    background-color: green;
+    color: white;
+}
+.section_2 .outer .flex{
+    display: flex;
+    /* flex-wrap: wrap; */
+   
+}
+.section_2 .outer .block img{
+    width: 100%;
+}
+.section_2 .outer  .block{
+    margin: 2%;
+    text-align: center;
+    border: 1px solid rgb(199, 195, 195);
+}
+.cont{
+   /* border: 1px solid red; */
+}
+.para{
+   padding: 20px 0px;
+   background-color: azure;
+    /* border: 1px solid blue; */
+    line-height: 2;
+}
+.cont_btn{
+    display: flex;
+    /* border: 1px solid red; */
+    text-align: center;
+    /* justify-content: space-around; */
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.cont_btn .back{
+    border-right: 1px solid green;
+    padding: 10px;
+    width: 50%;
+   
+}
+/* ...........................section_3......................... */
+.section_3{
+    background-image: url(img/JL65RpYFVJTiiTJeMYgAzHPx5M.webp);
+    background-size: cover;
+    /* border: 4px solid rgb(6, 29, 58); */
+}
+.green_box{
+   
+    background-color: #3CB815;
+    padding: 10px;
+    color: white;
+}
+.green_box .header{
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 20px 10px;
+}
+.green_box .header h1{
+   font-size: 3vmax;
+   padding: 20px 0px;
+}
+.green_box .header p{
+    font-size: 1.4vmax;
+   
+}
+.devine{
+    display: flex;
+    margin: 3%;
+}
+.view_btn{
+  
+    font-size: 2vmax;
+    background-color: orangered;
+    color: white;
+    margin: 10% 20% 1% 40%;
+    justify-content: end;
+    border-radius: 20px;
+}
+.main_btn{
+    font-size: 2vmax;
+    background-color: orangered;
+    color: white;
+    padding: 10px ;
+    margin: 0% 4% 0% 4%;
+   
+}
+
+
+.contant{
+   
+    display: flex;
+    justify-content: center;
+    /* margin: 5% 33% 10% 5%; */
+    padding: 5% 35%;
+}
+.contant .block{
+    text-align: center;
+}
+.contant .block h1{
+  /* padding: 10px 5px; */
+  font-size: 3.7vmax;
+}
+.contant .block p{
+    font-size: 1.7vmax;
+    color: gray;
+}
+
+.section_3 .outer{
+    /* border: 1px solid red; */
+}
+.section_3 .outer .flex{
+    /* border: 1px solid blue; */
+    margin: 5%;
+    display: flex;
+}
+.section_3 .outer .flex .block{
+    /* border: 1px solid green; */
+    margin: 2%;
+    padding: 20px;
+    background-color: azure;
+}
+.section_3 .outer .flex .block p{
+    font-size: 1.4vmax;
+}
+.section_3 .outer .flex .block  .cont{
+    padding: 10px 0px;
+}
+.dis{
+    display: flex;
+    padding: 0px 0px 0px 5px;
+    align-items: center;
+}
+
+.radius{
+  padding: 10px;
+}
+
+.dis img{ 
+    border-radius: 60%;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* .........................................secdtion_4........................................... */
+.section_4 .contantt{
+    display: flex;
+    justify-content: center;
+    padding: 5% 35%;
+}
+.section_4  .contant .block1{
+    text-align: center;
+}
+.section_4 .before_footer{
+    /* border: 1px solid red; */
+    /* width: 100%; */
+}
+.section_4 .before_footer .division{
+    /* border: 1px solid green; */
+    margin: 3% 2%;
+    display: flex;
+}
+.big_img{
+   width: auto;
+   /* border: 1px solid red; */
+   background-color: aliceblue;
+   margin: 2%;
+}
+.big_img img{
+    width: 100%;
+}
+.section_4 .before_footer .division .big_img  .paragraph{
+    padding: 20px 15px;
+    border-bottom: 1px solid gray;
+}
+.section_4 .before_footer .division .top_div{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.section_4 .before_footer .division .top_div .bottom_div{
+    display: flex;
+    padding: 5px;
+}
+.section_4 .before_footer .division .top_div .bottom_div div{
+    padding: 0px 7px;
+}
+.section_4 .before_footer .division .top_div .bottom_div i{
+    color: #3CB815;
+}
+/* .......................footer............................... */
+  .footer{
+    background-color: black;
+    color: white;
+  
+  }
+  .footer .division{
+    margin:2%;
+    border-bottom: 1px solid white;
+    display: flex;
+  }
+  .three_div{
+    /* border: 1px solid blue; */
+    width: 25%;
+    /* padding:30px 15px; */
+    margin: 2%;
+  }
+  .three_div .logo{
+    padding: 20px 0px;
+  }
+  .three_div p{
+    font-size: 1.5vmax;
+    padding: 10px 0px;
+  }
+  .media{
+    display: flex;
+    padding: 20px 0px;
+  }
+  .media i{
+    font-size: 25px;
+  }
+  .media div{
+   padding: 0px 0px 0px 10px;
+  }
+  .icon_div{
+    display: flex;
+  }
+  .icon_div div{
+    padding: 5px 7px;
+  }
+  .three_div .heading{
+    padding: 20px 0px;
+  }
+  .three_div .link{
+    padding: 20px 0px;
+  }
+  .sign{
+    border: 1px solid white;
+    
+    /* margin: 2%; */
+  }
+  .sign .dot_sign{
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+  }
+  .sign_border{
+    padding: 10px;
+    border: 1px solid #3CB815;
+    color: white;
+  
+  }
+  .bottom_footer{
+    margin: 4%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .last_let span{
+    font-weight: bold;
+  }
+
